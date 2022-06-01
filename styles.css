@@ -1,0 +1,35 @@
+body {
+    font-family: arial;
+    }
+.menu {
+    display: flex;
+    padding: 0;
+    
+    justify-content: space-around;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu a {
+    display: block;
+    min-width: 300px;
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    text-align: center;
+    background-color: burlywood;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: all 1s;
+}
+.menu a.actif {
+    background-color: #000;
+    color: #1abc9c;
+    border-color: cyan;
+}
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #ed2794;
+    color: #ffe843;
+    border-color: #ffe843;
+}
